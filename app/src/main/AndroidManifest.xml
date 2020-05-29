@@ -9,12 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.MainActivity">
+        <activity android:name=".activity.MainActivity">
 
         </activity>
-        <activity android:name=".ui.InputActivity" />
+        <activity android:name=".activity.InputActivity" />
         <activity
-            android:name=".ui.SplashActivity"
+            android:name=".activity.SplashActivity"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
